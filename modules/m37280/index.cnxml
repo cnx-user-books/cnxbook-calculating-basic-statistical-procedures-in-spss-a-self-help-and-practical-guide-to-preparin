@@ -1,0 +1,47 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Introduction: Why a Book on Statistical Help for Graduate Students and Faculty?</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37280</md:content-id>
+  <md:title>Introduction: Why a Book on Statistical Help for Graduate Students and Faculty?</md:title>
+  <md:abstract>This book, A Self-Help and Practical Guide to Preparing Theses, Dissertations, and Manuscripts, is authored by John R. Slate and Ana Rojas-LeBouef from Sam Houston State University. This book is written to assist graduate students and faculty members, as well as undergraduate students, in their use of the Statistical Package of the Social Sciences-PC (SPSS-PC) versions 15-19.  Specifically, we have generated a set of steps and screenshots to depict each important step in conducting basic statistical analyses.  We believe that this book supplements existing statistical texts in which readers are informed about the statistical underpinnings of basic statistical procedures and in which definitions of terms are provided.  Accordingly, other than providing a few basic definitions, we assume that dissertation chairs/thesis directors, students, and/or faculty will obtain their own definition of terms.  We hope you find this set of steps and screenshots to be helpful as you use SPSS-PC in conducting basic statistical analyses.</md:abstract>
+  <md:uuid>ead3c958-46c7-4a61-a311-e9c4500facde</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="prerequisite">
+      <link url="http://my.qoop.com/store/NCPEA-Publications-1781472103076212/" strength="3">Model Write Ups</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="eip-988"><media id="id27091673" alt=""><image src="../../media/ncpealogo.gif" mime-type="image/gif"/></media></para><note id="eip-222">This Chapter has been peer-reviewed, accepted, and endorsed by the National Council of Professors of Educational Administration (NCPEA) as a significant contribution to the scholarship and practice of education administration. Formatted and edited in Connexions by Theodore Creighton and Brad Bizzell, Virginia Tech, Janet Tareilo, Stephen F. Austin State University, and Thomas Kersten, Roosevelt University.</note><para id="eip-183">This chapter is part of a larger Collection (Book) and is available at: <link url="http://my.qoop.com/store/NCPEA-Publications-1781472103076212/"><emphasis effect="italics">Calculating Basic Statistical Procedures in SPSS: A Self-Help and Practical Guide to Preparing Theses, Dissertations, and Manuscripts</emphasis> </link> 
+
+</para><note id="eip-791">Slate and LeBouef have written a "companion book" which is available at:  <link url="http://my.qoop.com/store/NCPEA-Publications-1781472103076212/"><emphasis effect="italics">Preparing and Presenting Your Statistical Findings: Model Write Ups</emphasis> </link> </note><list id="eip-72" list-type="labeled-item"><title><emphasis effect="underline">Authors Information</emphasis></title><item><emphasis>John R. Slate</emphasis> is a Professor at Sam Houston State University where he teaches Basic and Advanced Statistics courses, as well as professional writing, to doctoral students in Educational Leadership and Counseling.  His research interests lie in the use of educational databases, both state and national, to reform school practices.  To date, he has chaired and/or served over 100 doctoral student dissertation committees.  Recently, Dr. Slate created a website, <link url="www.writingandstatisticalhelp.com"> Writing and Statistical Help</link> to assist students and faculty with both statistical assistance and in editing/writing their dissertations/theses and manuscripts.</item>
+<item><emphasis>Ana Rojas-LeBouef </emphasis> is a Literacy Specialist at the Reading Center at Sam Houston State University where she teaches developmental reading courses.  She recently completed her doctoral degree in Reading, where she conducted a 16-year analysis of Texas statewide data regarding the achievement gap.  Her research interests lie in examining the inequities in achievement among ethnic groups.  Dr. Rojas-LeBouef also assists students and faculty in their writing and statistical needs on the Writing and Statistical website, <link url="www.writingandstatisticalhelp.com"> Writing and Statistical Help</link>
+</item></list><list id="eip-139" list-type="labeled-item"><title><emphasis effect="underline">Editors Information</emphasis></title><item><emphasis>Theodore B. Creighton</emphasis>, is a Professor at Virginia Tech and the Publications Director for <link url="http://www.ncpeapublications.org">NCPEA Publications</link>, the Founding Editor of <link url="http://ncpeapublications.org/about-elr.html">Education Leadership Review,</link> and the Senior Editor of the NCPEA Connexions Project.</item>
+
+
+
+<item><emphasis>Brad E. Bizzell</emphasis>, is a recent graduate of the Virginia Tech Doctoral Program in Educational Leadership and Policy Studies, and is a School Improvement Coordinator for the Virginia Tech Training and Technical Assistance Center. In addition, Dr. Bizzell serves as an Assistant Editor of the NCPEA Connexions Project in charge of technical formatting and design.
+</item>
+
+<item><emphasis>Janet Tareilo</emphasis>, is a Professor at Stephen F. Austin State University and serves as the Assistant Director of NCPEA Publications. Dr. Tareilo also serves as an Assistant Editor of the NCPEA Connexions Project and as a editor and reviewer for several national and international journals in educational leadership.</item>
+
+<item><emphasis>Thomas Kersten</emphasis> is a Professor at Roosevelt University in Chicago. Dr. Kersten is widely published and an experienced editor and is the author of <link url="http://cnx.org/content/col10606/latest/">Taking the Mystery Out of Illinois School Finance</link>, a Connexions Print on Demand publication. He is also serving as Editor in Residence for this book by Slate and LeBouef.</item></list><section id="id1171270637757">
+      <title>Introduction: Why a Book for Helping Students and Faculty with SPSS and Writing Help?</title>
+      <para id="id1171272579615">In the past two decades of teaching basic and advanced statistical procedures, we have observed student after student who experienced difficulty with using the Statistical Package for the Social Sciences (SPSS) and with interpreting the voluminous output generated by SPSS.  These difficulties, along with statistics anxiety experienced by many students, led us to develop a specific and detailed set of steps for students to follow.  Students reported to us, over and over, how helpful the point-and-click steps were to them in allowing them to use SPSS.  Some students, even with the steps, still managed to experience difficulty in being able to use SPSS successfully.  As a result, we generated screenshots for every major point-and-click step.  This combination of steps and screenshots has met with excellent student satisfaction and, most importantly for us as instructors, has enhanced their ability to be successful in using SPSS.
+	</para>
+      <para id="id1171277069449">We have written this textbook in hopes of facilitating individuals’ success in using SPSS for their statistical analyses and in interpreting the SPSS output properly.  Graduate and undergraduate students who take a statistics course in which SPSS is used will find these steps and screenshots to be very practical and very easy to follow.  Doctoral students, who completed their statistics course years ago, but who are now working on their dissertation data analysis will find this textbook to be a practical step-by-guide.  Finally, faculty members who engage in scholarly activities but are years removed from their own statistics courses will find this textbook to be helpful.
+	
+</para>
+      
+      <para id="id1171270917382">We hope that you find our materials helpful to you in your use of SPSS and in your interpretation of SPSS output.  This textbook reflects our efforts and interests in making statistical analysis less threatening and less anxiety-producing than many persons find it to be.  Currently, great emphasis is placed on accountability in educational settings.  Being able to analyze data, of which an abundance clearly exists, in an interpretable way is essential, especially if we want to make the educational lives of our students better.</para>
+      
+      <list id="eip-56" list-type="labeled-item"><item><emphasis>John R. Slate, Sam Houston State University</emphasis></item>
+<item><emphasis>Ana Rojas-LeBouef, Sam Houston State University</emphasis></item>
+</list>
+    </section>
+  </content>
+</document>

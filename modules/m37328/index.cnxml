@@ -1,0 +1,385 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Conducting a Parametric Dependent Samples t-test (Paired Samples t-test)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37328</md:content-id>
+  <md:title>Conducting a Parametric Dependent Samples t-test (Paired Samples t-test)</md:title>
+  <md:abstract>Conducting a Parametric Dependent Samples t-test (Paired Samples t-test) is Chapter 5 of Calculating Basic Statistical Procedures in SPSS: A Self-Help and Practical Guide to Preparing Theses, Dissertations, and Manuscripts, authored by John R. Slate and Ana Rojas-LeBouef from Sam Houston State University. This book is written to assist graduate students and faculty members, as well as undergraduate students, in their use of the Statistical Package of the Social Sciences-PC (SPSS-PC) versions 15-19.  Specifically, we have generated a set of steps and screenshots to depict each important step in conducting basic statistical analyses.  We believe that this book supplements existing statistical texts in which readers are informed about the statistical underpinnings of basic statistical procedures and in which definitions of terms are provided.  Accordingly, other than providing a few basic definitions, we assume that dissertation chairs/thesis directors, students, and/or faculty will obtain their own definition of terms.  We hope you find this set of steps and screenshots to be helpful as you use SPSS-PC in conducting basic statistical analyses.</md:abstract>
+  <md:uuid>ac72cf0b-876b-4810-b119-f4c568a6962e</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m37347/latest/" strength="3">Skewness and Kurtosis Calculator</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+    <para id="eip-935"><media id="id27091673" alt=""><image src="../../media/ncpealogo.gif" mime-type="image/gif"/></media>
+
+
+
+
+
+
+
+</para><note id="eip-375">This chapter has been peer-reviewed, accepted, and endorsed by the National Council of Professors of Educational Administration (NCPEA) as a significant contribution to the scholarship and practice of education administration. Formatted and edited in Connexions by Theodore Creighton and Brad Bizzell, Virginia Tech, Janet Tareilo, Stephen F. Austin State University, and Thomas Kersten, Roosevelt University.
+</note><section id="eip-164"><para id="eip-819">This chapter is part of a larger Collection (Book) and is available at: <link url="http://my.qoop.com/store/NCPEA-Publications-1781472103076212/"><emphasis effect="italics">Calculating Basic Statistical Procedures in SPSS: A Self-Help and Practical Guide to Preparing Theses, Dissertations, and Manuscripts</emphasis> </link> 
+
+
+</para><note id="eip-854">Slate and LeBouef have written a "companion book" which is available at:  <link url="http://my.qoop.com/store/NCPEA-Publications-1781472103076212/"><emphasis effect="italics">Preparing and Presenting Your Statistical Findings: Model Write Ups</emphasis> </link> </note></section><list id="eip-648" list-type="labeled-item"><title><emphasis effect="underline">Authors Information</emphasis></title><item><emphasis>John R. Slate</emphasis> is a Professor at Sam Houston State University where he teaches Basic and Advanced Statistics courses, as well as professional writing, to doctoral students in Educational Leadership and Counseling.  His research interests lie in the use of educational databases, both state and national, to reform school practices.  To date, he has chaired and/or served over 100 doctoral student dissertation committees.  Recently, Dr. Slate created a website <link url="http://www.writingandstatisticalhelp.com">Writing and Statistical Help</link> to assist students and faculty with both statistical assistance and in editing/writing their dissertations/theses and manuscripts.</item>
+<item><emphasis>Ana Rojas-LeBouef</emphasis> is a Literacy Specialist at the Reading Center at Sam Houston State University where she teaches developmental reading courses.  She recently completed her doctoral degree in Reading, where she conducted a 16-year analysis of Texas statewide data regarding the achievement gap.  Her research interests lie in examining the inequities in achievement among ethnic groups.  Dr. Rojas-LeBouef also assists students and faculty in their writing and statistical needs on the website <link url="http://www.writingandstatisticalhelp.com">Writing and Statistical Help.</link>
+</item>
+
+<item/>
+
+
+
+
+
+</list><list id="eip-647" list-type="labeled-item"><title><emphasis effect="underline">Editors Information</emphasis></title><item><emphasis>Theodore B. Creighton</emphasis>, is a Professor at Virginia Tech and the Publications Director for <link url="http://www.ncpeapublications.org">NCPEA Publications</link>, the Founding Editor of <link url="http://ncpeapublications.org/about-elr.html">Education Leadership Review,</link> and the Senior Editor of the NCPEA Connexions Project.</item>
+
+
+
+<item><emphasis>Brad E. Bizzell</emphasis>, is a recent graduate of the Virginia Tech Doctoral Program in Educational Leadership and Policy Studies, and is a School Improvement Coordinator for the Virginia Tech Training and Technical Assistance Center. In addition, Dr. Bizzell serves as an Assistant Editor of the NCPEA Connexions Project in charge of technical formatting and design.
+</item>
+
+<item><emphasis>Janet Tareilo</emphasis>, is a Professor at Stephen F. Austin State University and serves as the Assistant Director of NCPEA Publications. Dr. Tareilo also serves as an Assistant Editor of the NCPEA Connexions Project and as a editor and reviewer for several national and international journals in educational leadership.</item>
+
+<item><emphasis>Thomas Kersten</emphasis> is a Professor at Roosevelt University in Chicago. Dr. Kersten is widely published and an experienced editor and is the author of <link url="http://cnx.org/content/col10606/latest/">Taking the Mystery Out of Illinois School Finance</link>, a Connexions Print on Demand publication. He is also serving as Editor in Residence for this book by Slate and LeBouef.</item>
+</list><section id="eip-429"><title>Conducting a Parametric Dependent Samples <emphasis effect="italics">t</emphasis>-test</title><para id="eip-206">In this set of steps, readers will calculate either a parametric or a nonparametric statistical analysis, depending on whether the data for the dependent variable reflect a normal distribution. A parametric statistical procedure requires that its data be reflective of a normal curve whereas no such assumption is made in the use of a nonparametric procedure. Of the two types of statistical analyses, the parametric procedure is the more powerful one in ascertaining whether or not a statistically significant difference, in this case, exists. As such, parametric procedures are preferred over nonparametric procedures. When data are not normally distributed, however, parametric analyses may provide misleading and inaccurate results. According, nonparametric analyses should be used in cases where data are not reflective of a normal curve. In this set of steps, readers are provided with information on how to make the determination of normally or nonnormally distributed data. For detailed information regarding the assumptions underlying parametric and nonparametric procedures, readers are referred to the Hyperstats Online Statistics Textbook at <link url="http://davidmlane.com/hyperstat/">http://davidmlane.com/hyperstat/</link> or to the <emphasis effect="italics">Electronic Statistics Textbook</emphasis> (2011) at <link url="http://www.statsoft.com/textbook/">http://www.statsoft.com/textbook/</link>
+</para><para id="eip-861">For this parametric dependent samples <emphasis effect="italics">t </emphasis>-test to be appropriately used, at least half of the standardized skewness coefficients and the standardized kurtosis coefficients must be within the normal range (+/-3, Onwuegbuzie &amp; Daniel, 2002). Research questions for which dependent samples<emphasis effect="italics"> t</emphasis>-tests are appropriate involve asking for differences in a dependent variable by group membership (i.e., only two groups are present for <emphasis effect="italics">t</emphasis>-tests and, in this case, must be connected). The research question, “What is the effect of a reading intervention program on science performance among elementary school students?” could be answered through use of an dependent samples<emphasis effect="italics"> t</emphasis>-test.</para></section>
+    
+    
+    
+    <section id="id1171532819854">
+      <title>Step One:</title>
+      
+      
+      
+      <list id="eip-431" list-type="labeled-item"><item>Compute Measures of Normality for the Dependent Variable  </item>
+<item>√ Analyze</item>
+<item>* Descriptive Statistics</item>
+<item>* Frequencies</item></list>
+      <para id="id1171539767869"><link url="figure5.1.PNG/image" window="new">
+      <media id="media1" alt="">
+
+        <image mime-type="image/PNG" src="../../media/figure5.1.PNG" id="figure1"/>
+
+      </media>
+      </link></para>
+      
+      <list id="eip-200" list-type="labeled-item"><item>√ Move over the dependent (outcome) variable</item>
+</list><para id="id1171535311277"><link url="figure5.2.PNG/image" window="new">
+      <media id="media2" alt="">
+
+        <image mime-type="image/PNG" src="../../media/figure5.2.PNG" id="figure2"/>
+
+      </media>
+      </link></para>
+      <list id="eip-731" list-type="labeled-item"><item>√ Statistics</item>
+<item>* Skewness [Note. Skewness refers to the extent to which the data are normally distributed around the mean. Skewed data involve having either mostly high scores with a few low ones or having mostly low scores with a few high ones.] Readers are referred to the following sources for a more detailed definition of skewness: <link url="http://www.statistics.com/index.php?page=glossary&amp;term_id=356">http://www.statistics.com/index.php?page=glossary&amp;term_id=356</link> and <link url="http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb">http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb</link></item>
+<item>To standardize the skewness value so that its value can be constant across datasets and across studies, the following calculation must be made: Take the skewness value from the SPSS output and divide it by the Std. error of skewness. If the resulting calculation is within -3 to +3, then the skewness of the dataset is within the range of normality (Onwuegbuzie &amp; Daniel, 2002). If the resulting calculation is outside of this +/-3 range, the dataset is not normally distributed.</item>
+
+<item>* Kurtosis [Note. Kurtosis also refers to the extent to which the data are normally distributed around the mean. This time, the data are piled up higher than normal around the mean or piled up higher than normal at the ends of the distribution.] Readers are referred to the following sources for a more detailed definition of kurtosis: <link url="http://www.statistics.com/index.php?page=glossary&amp;term_id=326">http://www.statistics.com/index.php?page=glossary&amp;term_id=326</link> and <link url="http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb">http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb</link></item>
+<item>To standardize the kurtosis value so that its value can be constant across datasets and across studies, the following calculation must be made: Take the kurtosis value from the SPSS output and divide it by the Std. error of kurtosis. If the resulting calculation is within -3 to +3, then the kurtosis of the dataset is within the range of normality (Onwuegbuzie &amp; Daniel, 2002). If the resulting calculation is outside of this +/-3 range, the dataset is not normally distributed.</item>
+<item>* Continue</item>
+<item>* OK</item></list>
+      
+      
+      
+      
+      
+      
+      
+      <para id="id1171561346508"><link url="figure5.3.PNG/image" window="new">
+      <media id="media3" alt="">
+
+        <image mime-type="image/PNG" src="../../media/figure5.3.PNG" id="figure3"/>
+
+      </media>
+      </link></para><list id="eip-193" list-type="bulleted" bullet-style="asterisk"><item>Uncheck the "display frequency tables" so that you are not provided with the frequencies of your data every time descriptive statistics are obtained.</item>
+</list>
+      
+    </section>
+    <section id="id1171557172860">
+      <title>Step Two:</title>
+      <para id="id8139460"> Check for Skewness and Kurtosis values falling within/without the parameters of normality (-3 to +3). Note that each variable below has its own skewness and its own kurtosis values. Thus, a total of three standardized skewness coefficients and three standardized kurtosis coefficients can be calculated from information in the table below.</para>
+      <table id="id1171555207768" summary=""><tgroup cols="5">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <tbody>
+            <row>
+              <entry/>
+              <entry/>
+              <entry>CH005TC09R</entry>
+              <entry>CL005TC09R</entry>
+              <entry>CW005TC09R</entry>
+            </row>
+            <row>
+              <entry>N</entry>
+              <entrytbl namest="c2" nameend="c5" cols="4">
+                <colspec colnum="1" colname="c1"/>
+                <colspec colnum="2" colname="c2"/>
+                <colspec colnum="3" colname="c3"/>
+                <colspec colnum="4" colname="c4"/>
+                <tbody>
+                  <row>
+                    <entry>Valid</entry>
+                    <entry>3125</entry>
+                    <entry>1805</entry>
+                    <entry>1877</entry>
+                  </row>
+                  <row>
+                    <entry>Missing</entry>
+                    <entry>5197</entry>
+                    <entry>6517</entry>
+                    <entry>6445</entry>
+                  </row>
+                </tbody>
+              </entrytbl>
+            </row>
+            <row>
+              <entry namest="c1" nameend="c2"><emphasis>Skewness</emphasis></entry>
+              <entry><emphasis>-1.129</emphasis></entry>
+              <entry><emphasis>-.479</emphasis></entry>
+              <entry><emphasis>-2.197</emphasis></entry>
+            </row>
+            <row>
+              <entry namest="c1" nameend="c2"><emphasis>Std. Error of Skewness</emphasis></entry>
+              <entry><emphasis>.044</emphasis></entry>
+              <entry><emphasis>.058</emphasis></entry>
+              <entry><emphasis>.056</emphasis></entry>
+            </row>
+            <row>
+              <entry namest="c1" nameend="c2"><emphasis>Kurtosis</emphasis></entry>
+              <entry><emphasis>1.818</emphasis></entry>
+              <entry><emphasis>-.412</emphasis></entry>
+              <entry><emphasis>6.991</emphasis></entry>
+            </row>
+            <row>
+              <entry namest="c1" nameend="c2"><emphasis>Std. Error of Kurtosis</emphasis></entry>
+              <entry><emphasis>.088</emphasis></entry>
+              <entry><emphasis>.115</emphasis></entry>
+              <entry><emphasis>.113</emphasis></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      <caption>Skewness and Kurtosis Coefficients</caption></table>
+      
+      
+      <list id="eip-955" list-type="labeled-item"><item><emphasis effect="bold">Standardized Coefficients Calculator </emphasis></item>
+<item>Copy variable #1 and #2 into the skewness and kurtosis calculator</item>
+</list><para id="id1171548967909"><link url="figure5.4.PNG/image" window="new">
+      <media id="media4" alt="">
+
+        <image mime-type="image/PNG" src="../../media/figure5.4.PNG" id="figure4"/>
+
+      </media>
+      </link></para>
+      
+      
+      
+      <list id="eip-308" list-type="labeled-item"><item>√ Charts (these are calculated only if you wish to have visual depictions of skewness and of kurtosis-they are not required) </item>
+<item>* Histogram~ with normal curve (not required, optional)</item>
+</list><para id="id1171561735146"><link url="figure5.5.PNG/image" window="new">
+      <media id="media5" alt="">
+
+        <image mime-type="image/PNG" src="../../media/figure5.5.PNG" id="figure5"/>
+
+      </media>
+      </link></para>
+    </section>
+    <section id="id1171542621477">
+      <title>Step Three:</title>
+      
+      
+      <list id="eip-547" list-type="labeled-item"><item>Calculate Paired Samples <emphasis effect="italics">t</emphasis>-test on Data </item>
+<item>√ Analyze</item>
+<item>√ Compare Means</item>
+<item>√ Paired samples <emphasis effect="italics">t</emphasis>-test</item></list>
+      
+      <para id="id1171537307472"><link url="figure5.6.PNG/image" window="new">
+      <media id="media6" alt="">
+
+        <image mime-type="image/PNG" src="../../media/figure5.6.PNG" id="figure6"/>
+
+      </media>
+      </link></para>
+      
+      
+      <list id="eip-719" list-type="labeled-item"><item>√ Click on one dependent variable </item>
+<item>√ Arrow to send over to Paired Variables Side, Variable 1</item>
+</list><para id="id1171553425579"><link url="figure5.7.1.PNG/image" window="new">
+      <media id="media7" alt="">
+
+        <image mime-type="image/PNG" src="../../media/figure5.7.1.PNG" id="figure7"/>
+
+      </media>
+      </link></para>
+      
+      
+      
+      <list id="eip-470" list-type="labeled-item"><item>√ Click on second dependent variable  </item>
+<item>√ Arrow to send over to Paired Variables Side, Variable 2</item>
+</list><para id="eip-803"><link url="figure5.8.1.PNG/image" window="new">
+      <media id="media8" alt="">
+
+        <image mime-type="image/PNG" src="../../media/figure5.8.1.PNG" id="figure8"/>
+
+      </media>
+      </link></para><list id="eip-92" list-type="labeled-item"><item>√ OK</item>
+</list>
+      
+    </section>
+    <section id="id2342620">
+      <title>Step Four: </title>
+      
+      
+      
+      <list id="eip-239" list-type="labeled-item"><item><emphasis effect="bold">Check for Statistical Significance</emphasis></item>
+<item>Go to the Paired Samples Test Box and look at the very last cell labeled Sig. (2-tailed) to check for significance.</item>
+<item>If you have any value less than .05 then you have statistical significance. Remember to replace the third zero with a 1 to a .000 value (i.e., for a value of .000, you would write it as .001).</item>
+
+</list><table id="id1171546279474" summary=""><tgroup cols="11">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <colspec colnum="7" colname="c7"/>
+          <colspec colnum="8" colname="c8"/>
+          <colspec colnum="9" colname="c9"/>
+          <colspec colnum="10" colname="c10"/>
+          <colspec colnum="11" colname="c11"/>
+          <tbody>
+            <row>
+              <entry namest="c1" nameend="c11"> Paired Samples Test </entry>
+
+            </row>
+            <row>
+              <entry namest="c1" nameend="c3">Disability Group Membership</entry>
+              <entrytbl namest="c4" nameend="c8" cols="5">
+                <colspec colnum="1" colname="c1"/>
+                <colspec colnum="2" colname="c2"/>
+                <colspec colnum="3" colname="c3"/>
+                <colspec colnum="4" colname="c4"/>
+                <colspec colnum="5" colname="c5"/>
+                <tbody>
+                  <row>
+                    <entry namest="c1" nameend="c5">Paired Differences</entry>
+                  </row>
+                  <row>
+                    <entry namest="c1" nameend="c3"/>
+                    <entry namest="c4" nameend="c5">95% Confidence Interval of the Difference</entry>
+                  </row>
+                  <row>
+                    <entry>Mean</entry>
+                    <entry>Std. Deviation</entry>
+                    <entry>Std. Error Mean</entry>
+                    <entry>Lower</entry>
+                    <entry>Upper</entry>
+                  </row>
+                </tbody>
+              </entrytbl>
+              <entry>t</entry>
+              <entry>df</entry>
+              <entry>Sig. (2-tailed)</entry>
+            </row>
+            <row>
+              <entry>Students with Learning Disabilities</entry>
+              <entry>Pair 1</entry>
+              <entry>Verbal IQ (Wechsler Verbal Intelligence 3) - Performance 1 (Picture Completion)</entry>
+              <entry>76.192</entry>
+              <entry>10.141</entry>
+              <entry>.464</entry>
+              <entry>75.281</entry>
+              <entry>77.104</entry>
+              <entry>164.266</entry>
+              <entry>477</entry>
+              <entry>.000</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      <caption>Paired Samples Test</caption></table>
+      <list id="id1171531285836" list-type="labeled-item"><item><emphasis effect="bold">1. Numerical sentence is written as</emphasis>: <emphasis effect="italics"/></item>
+
+<item>Numerical Sentence = <emphasis effect="italics">t</emphasis>(df)<sub>sp</sub>=<sub>sp</sub><emphasis effect="italics">t</emphasis>,<sub>sp</sub><emphasis effect="italics">p</emphasis><sub>sp</sub>&lt;<sub>sp</sub>.001 (or Bonferroni-adjusted alpha).</item>
+<item> - <emphasis effect="italics">df</emphasis> is located in Paired Samples Box</item>
+      <item> - <emphasis effect="italics">t</emphasis> is located in Paired Samples Box</item>
+<item>2. The outcome of the paired samples <emphasis effect="italics">t</emphasis>-test,<emphasis effect="italics"> t</emphasis>(477) = 164.27 <emphasis effect="italics">p</emphasis> &lt; .001, was statistically significant. </item></list>
+      
+      
+      
+      
+    </section>
+    <section id="id1171550337520">
+      <title>Step Five:</title>
+      
+      <list id="eip-610" list-type="labeled-item"><item><emphasis>Check for Effect Size</emphasis></item>
+<item>* Use the web-based calculator for effect size using the following websites:</item>
+
+
+
+<item><link url="http://www.uccs.edu/~faculty/lbecker/">Effect Size Calculators for Basic and Multivariate Statistical Procedures</link></item>
+
+
+</list>
+      
+      
+      
+      
+      <list id="eip-422" list-type="labeled-item"><item>Cohen’s <emphasis effect="italics">d</emphasis> (1988)</item>
+<item><emphasis effect="italics">d</emphasis> of 0.20  =  small effect size (range 0.20 to 0.49)</item>
+<item><emphasis effect="italics">d</emphasis> of 0.50  = moderate effect size (range 0.50 to 0.79)</item>
+<item><emphasis effect="italics">d</emphasis> of 0.80  =  large effect size (range 0.80 and above)</item>
+<item>Note. Cohen’s <emphasis effect="italics">d</emphasis> can be greater than 1.00. Therefore, a 0 should be placed in front of the decimal when the value is lower than 1.00. </item></list>
+      
+      
+      
+      <para id="eip-516"><media id="id27091676" alt=""><image src="../../media/figure5.9b.png" mime-type="image/gif"/></media></para>
+    </section>
+    <section id="id1171563764458">
+      <title>Step Six:</title>
+      
+      
+      <list id="eip-195" list-type="labeled-item"><item><emphasis effect="bold">Narrative and Interpretation</emphasis>
+      </item>
+<item>1. type of <emphasis effect="italics">t</emphasis>-test conducted and assumptions met</item>
+<item>2. <emphasis effect="italics">t</emphasis> value </item>
+<item>3. degrees of freedom </item>
+<item>4. <emphasis effect="italics">p</emphasis> value </item></list>
+      
+      
+      
+    </section>
+    <section id="eip-15"><title>Writing Up Your Statistics</title><para id="eip-548">So, how do you "write up" your Research Questions and your Results? Schuler W. Huck (2000) in his seminal book entitled, <emphasis effect="italics"> Reading Statistics and Research,</emphasis> points to the importance of your audience understanding and making sense of your research in written form. Huck further states:
+</para><section id="eip-415"><para id="eip-721">
+
+
+This book is designed to help people <emphasis effect="italics">decipher</emphasis> what researchers are trying to communicate in the written or oral summaries of their investigations. Here, the goal is simply to distill meaning from the words, symbols, tables, and figures included in the research report. To be competent in this arena, one must not only be able to decipher what's presented but also to "fill in the holes"; this is the case because researchers typically assume that those receiving the research report are familiar with unmentioned details of the research process and statistical treatment of data.
+</para></section><para id="eip-612">Researchers and Professors John Slate and Ana Rojas-LeBouef understand this critical issue, so often neglected or not addressed by other authors and researchers. They point to the importance of doctoral students "writing up their statistics" in a way that others can understand your reporting and as importantly, interpret the meaning of your significant findings and implications for the preparation and practice of educational leadership. Slate and LeBouef provide you with a model for "writing up your parametric dependent sample t-test statistics." </para><para id="eip-565">Click here to view: <link url="http://cnx.org/content/col11299/latest/"><emphasis effect="italics">Writing Up Your Parametric Dependent Samples t-test Statistics</emphasis> </link></para></section><section id="id1171540631389">
+      <title>References</title>
+      <list id="eip-941" list-type="labeled-item"><item>Cohen, J. (1988). <emphasis effect="italics">Statistical power analysis for the behavioral sciences </emphasis>(2nd ed.)<emphasis effect="italics">. </emphasis> Hillsdale, NJ: Lawrence Erbaum</item>
+<item>Hyperstats Online Statistics Textbook. (n.d.) Retrieved from <link url="http://davidmlane.com/hyperstat/">http://davidmlane.com/hyperstat/</link></item>
+<item>Kurtosis. (n.d.). Definition. Retrieved from <link url="http://www.statistics.com/index.php?page=glossary&amp;term_id=326">http://www.statistics.com/index.php?page=glossary&amp;term_id=326</link></item>
+<item>Kurtosis. (n.d.). <emphasis effect="italics">Definition of normality</emphasis>. Retrieved from <link url="http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb">http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb</link></item>
+<item>Onwuegbuzie, A. J., &amp; Daniel, L. G. (2002). Uses and misuses of the correlation coefficient. <emphasis effect="italics">Research in the Schools, 9</emphasis>(1)<emphasis effect="italics">, </emphasis>73-90.</item>
+<item>Skewness. (n.d.) Retrieved from <link url="http://www.statistics.com/index.php?page=glossary&amp;term_id=356">http://www.statistics.com/index.php?page=glossary&amp;term_id=356</link></item>
+<item>Skewness. (n.d.). <emphasis effect="italics">Definition of normality</emphasis>. Retrieved from <link url="http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb">http://www.statsoft.com/textbook/basic-statistics/#Descriptive%20statisticsb</link></item>
+<item>StatSoft, Inc. (2011). <emphasis effect="italics">Electronic statistics textbook.</emphasis> Tulsa, OK: StatSoft. WEB: <link url="http://www.statsoft.com/textbook/">http://www.statsoft.com/textbook/</link></item></list>
+      
+      
+      
+      
+      
+      
+      
+    </section>
+  </content>
+</document>
